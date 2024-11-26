@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Velocidade</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Teste de Velocidade de Internet</h1>
+            <p>Confira a performance da sua conexão em tempo real!</p>
+        </header>
+        <main>
+            <div class="animation-circle">
+                <div class="outer-circle"></div>
+                <div class="inner-circle"></div>
+                <div class="status">Pronto para iniciar</div>
+            </div>
+            <button id="startTest" class="start-btn">Iniciar Teste</button>
+            <div class="results">
+                <p id="downloadSpeed"><strong>Download:</strong> -- Mbps</p>
+                <p id="uploadSpeed"><strong>Upload:</strong> -- Mbps</p>
+                <p id="ping"><strong>Ping:</strong> -- ms</p>
+            </div>
+            <div class="extra-info">
+                <h2>Dicas para Melhorar sua Conexão</h2>
+                <ul>
+                    <li>Evite usar múltiplos dispositivos durante o teste.</li>
+                    <li>Desative downloads ou transmissões em segundo plano.</li>
+                    <li>Reinicie seu roteador para uma conexão mais estável.</li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <p>Desenvolvido por <a href="#" target="_blank">Gabriel Morales</a></p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
